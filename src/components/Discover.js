@@ -18,15 +18,15 @@ import profilepic from"../photos/profilepic.png";
 
 const Discover = () => {
   const topics = [
-    { title: "Home", icon: <AiFillHome /> },
-    { title: "Assignments", icon: <AiFillCalculator /> },
-    { title: "Events", icon: <BsMusicNoteBeamed />, link: "https://eventbyteroom.netlify.app/"},
-    { title: "Attendance", icon: <FaGraduationCap /> },
-    { title: "Library", icon: <AiFillDatabase /> },
-    { title: "Admissions", icon: <AiTwotoneBank /> },
-    { title: "Fees", icon: <AiFillShopping /> },
-    { title: "Courses", icon: <FiMonitor /> },
-  ];
+  { title: "Home", icon: <AiFillHome />, link: "/" },
+  { title: "Assignments", icon: <AiFillCalculator />, link: "/assignments" },
+  { title: "Events", icon: <BsMusicNoteBeamed />, link: "https://eventbyteroom.netlify.app/" },
+  { title: "Attendance", icon: <FaGraduationCap />, link: "/attendance" },
+  { title: "Library", icon: <AiFillDatabase />, link: "/library" },
+  { title: "Admissions", icon: <AiTwotoneBank />, link: "/admissions" },
+  { title: "Fees", icon: <AiFillShopping />, link: "/fees" },
+  { title: "Courses", icon: <FiMonitor />, link: "/courses" },
+];
   return (
     <div className="hidden xl:flex flex-col justify-between bg-[#2B2C4B] w-[18rem] shrink-0  h-screen sticky top-0">
       <div className="p-4">
