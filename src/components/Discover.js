@@ -20,7 +20,7 @@ const Discover = () => {
   const topics = [
     { title: "Home", icon: <AiFillHome /> },
     { title: "Assignments", icon: <AiFillCalculator /> },
-    { title: "Events", icon: <BsMusicNoteBeamed /> },
+    { title: "Events", icon: <BsMusicNoteBeamed />, link: "https://eventbyteroom.netlify.app/"},
     { title: "Attendance", icon: <FaGraduationCap /> },
     { title: "Library", icon: <AiFillDatabase /> },
     { title: "Admissions", icon: <AiTwotoneBank /> },
