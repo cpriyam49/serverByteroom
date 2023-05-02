@@ -1,19 +1,9 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
 
-const Topic = ({ title, icon, link }) => {
-  const history = useHistory();
-  const handleClick = () => {
-    if (link) {
-      history.push(link);
-    }
-  };
+const Topic = ({ title, icon }) => {
   return (
     <div className="flex text-white/50 items-center text-[20px]   ">
-      <button
-        className="flex items-center hover:bg-[#2B2C4B] hover:text-white focus:bg-[#2B2C4B] focus:text-white  w-full py-2.5 rounded-[0.4rem] font-semibold duration-100 ease-out"
-        onClick={handleClick}
-      >
+      <button className="flex items-center hover:bg-[#2B2C4B] hover:text-white focus:bg-[#2B2C4B] focus:text-white  w-full py-2.5 rounded-[0.4rem] font-semibold duration-100 ease-out ">
         <div className="pl-4 text-[25px]">{icon}</div>
         <p className="ml-2">{title}</p>
       </button>
