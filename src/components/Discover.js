@@ -35,8 +35,8 @@ const Discover = () => {
         {/* Topics */}
         <div className="mt-4 space-y-4">
           {topics.map((topic) => (
-            topic.title === "Events"? <a href="https://eventbyteroom.netlify.app" target="_blank"> <Topic title={topic.title} icon={topic.icon} /></a> :
-            <Topic title={topic.title} icon={topic.icon} />
+            topic.title === "Events"? <a href="https://eventbyteroom.netlify.app" target="_blank"> <Topic title={topic.title} icon={topic.icon} /></a> :<a href="#">
+            <Topic title={topic.title} icon={topic.icon} /></a>
           ))}
         </div>
       </div>
