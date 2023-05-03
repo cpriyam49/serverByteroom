@@ -12,4 +12,3 @@ const Topic = ({ title, icon }) => {
 };
 
 export default Topic;
-// #7289dc
